@@ -1,14 +1,10 @@
 const path = require('node:path')
-const UnoCSS = require('@unocss/webpack').default
 const withLess = require('next-with-less')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   webpack: (config) => {
-    config.plugins.push(
-      UnoCSS(),
-    )
     config.module.rules.forEach((rule) => {
       const { oneOf } = rule
       if (oneOf) {

@@ -1,3 +1,6 @@
 {
-  "extends": ["@antfu", "next/core-web-vitals"]
+  "extends": ["@antfu", "@unocss", "next/core-web-vitals"],
+  "rules": {
+    "no-console": "off"
+  }
 }

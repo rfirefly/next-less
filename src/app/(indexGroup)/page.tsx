@@ -48,6 +48,13 @@ export default function Home() {
           <p>to About Page.</p>
         </Link>
 
+        <Link href='/new' className={styles.card} rel='noopener noreferrer'>
+          <h2>
+            to new
+          </h2>
+          <p>to new Page.</p>
+        </Link>
+
         <Link href='/setting' className={styles.card} rel='noopener noreferrer'>
           <h2>
             to Setting

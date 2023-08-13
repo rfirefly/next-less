@@ -24,7 +24,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.40.2",
-    "@unocss/webpack": "^0.55.0",
+    "@unocss/eslint-config": "^0.55.0",
+    "@unocss/postcss": "^0.55.0",
     "unocss": "^0.55.0"
   }
 }
