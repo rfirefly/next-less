@@ -1,0 +1,30 @@
+{
+  "name": "test_next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.4.10",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.13",
+    "less": "^4.2.0",
+    "next": "13.4.13",
+    "next-with-less": "^3.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.65.1",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.40.2",
+    "@unocss/webpack": "^0.55.0",
+    "unocss": "^0.55.0"
+  }
+}

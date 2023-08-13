@@ -1,0 +1,3 @@
+{
+  "extends": ["@antfu", "next/core-web-vitals"]
+}
